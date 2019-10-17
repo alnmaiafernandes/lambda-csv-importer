@@ -1,0 +1,1 @@
+![](https://github.com/allanitsme/lambda-csv-importer/workflows/CI/badge.svg)
