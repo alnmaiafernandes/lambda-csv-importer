@@ -1,0 +1,14 @@
+{
+  "Records": [
+    {
+      "s3": {
+        "bucket": {
+          "name": "lambda-csvs"
+        },
+        "object": {
+          "key": "users.csv"
+        }
+      }
+    }
+  ]
+}

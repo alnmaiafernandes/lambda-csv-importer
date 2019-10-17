@@ -1,0 +1,24 @@
+{
+  "name": "lambda-csv-importer",
+  "version": "1.0.0",
+  "description": "NodeJS Lambda App that imports CSVs into MySQL database.",
+  "main": "src/index.js",
+  "repository": "https://github.com/allanitsme/lambda-csv-importer",
+  "author": "Allan Fernandes <allanfernandes.cpp@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint . --fix"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.550.0",
+    "fast-csv": "^3.4.0",
+    "lambda-log": "^2.3.1",
+    "mysql": "^2.17.1"
+  },
+  "devDependencies": {
+    "eslint": "^6.5.1",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "lambda-local": "^1.6.3"
+  }
+}
