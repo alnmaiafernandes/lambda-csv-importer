@@ -6,7 +6,6 @@
 const databaseService = require('./../database');
 
 const QUERY_INSERT = 'INSERT INTO users SET ?';
-
 /**
  * @param {Object} data
  * @return {Promise}
