@@ -7,6 +7,8 @@ const AWS = require('aws-sdk');
 
 const S3 = new AWS.S3({ apiVersion: '2006-03-01' });
 
+exports.S3 = S3;
+
 /**
  * Encapsulate S3.getObject into a Promise
  *
@@ -44,7 +46,7 @@ exports.deleteFile = (bucket, key) => new Promise((resolve) => {
 
   S3.deleteObject(params, (err, data) => {
     resolve({
-      success: err === undefined,
+      success: err === null,
       data,
     });
   });

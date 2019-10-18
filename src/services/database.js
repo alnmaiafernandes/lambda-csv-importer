@@ -45,7 +45,6 @@ exports.execute = (query, params) => new Promise((resolve) => {
   }
 
   connection.query(query, params, (err) => {
-    console.log(err);
     if (err) {
       resolve({ success: false, msg: err.message });
     }
