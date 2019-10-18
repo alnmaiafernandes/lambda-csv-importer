@@ -16,7 +16,7 @@ describe('Save Data', () => {
     };
     const outputData = {
       ...data,
-      created_at: '2019-10-10 00:01:001',
+      created_at: '2019-10-10 00:01:00',
     };
 
     databaseService.execute = jest.fn();
