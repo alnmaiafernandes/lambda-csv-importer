@@ -3,7 +3,6 @@
  * @link   http://allanits.me
  */
 
-const AWS = require('aws-sdk');
 const s3Service = require('../../src/services/s3');
 
 describe('S3 Service', () => {
