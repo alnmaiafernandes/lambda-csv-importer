@@ -2,7 +2,7 @@
   "name": "lambda-csv-importer",
   "version": "1.0.0",
   "description": "NodeJS Lambda App that imports CSVs into MySQL database.",
-  "main": "src/index.js",
+  "main": "src/handlers.js",
   "repository": "https://github.com/allanitsme/lambda-csv-importer",
   "author": "Allan Fernandes <allanfernandes.cpp@gmail.com>",
   "license": "MIT",

@@ -11,7 +11,7 @@ const databaseService = require('./services/database');
  * @param {Object} event
  * @return {Boolean}
  */
-exports.handler = async (event) => {
+exports.import = async (event) => {
   log.options.meta.event = event;
 
   if (event.Records === undefined) {
@@ -30,6 +30,8 @@ exports.handler = async (event) => {
     log.info(`Fail to import CSV (${result.msg}).`);
     return true;
   }
+
+  log.info('Record imported successfully.');
 
   return true;
 };
