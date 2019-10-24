@@ -63,10 +63,10 @@ When a CSV line is parsed by fast-csv using the above params the resulted object
 
 ```json
 {
-  full_name: "Allan Maia Fernandes",
-  nickname: "allanitsme",
-  email: "allanfernandes.cpp@gmail.com",
-  enabled: "1"
+  "full_name": "Allan Maia Fernandes",
+  "nickname": "allanitsme",
+  "email": "allanfernandes.cpp@gmail.com",
+  "enabled": "1"
 }
 ```
 
@@ -86,6 +86,8 @@ module.exports = (data) => databaseService.execute(QUERY_INSERT, {
 ```
 
 In the above example, the exported function just prepare the object to be inserted in the database appending to it the **created_at** property and execute the query declared in the **QUERY_INSERT** constant.
+
+Editing those files you can make your own .CSV imported.
 
 
 ## Testing
