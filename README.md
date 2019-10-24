@@ -1,6 +1,7 @@
 # CSV to MySQL Importer
 
-![Build Status](https://github.com/allanitsme/lambda-csv-importer/workflows/CI/badge.svg)
+[![Build Status](https://travis-ci.org/allanitsme/lambda-csv-importer.svg?branch=master)](https://travis-ci.org/allanitsme/lambda-csv-importer)
+[![Coverage Status](https://coveralls.io/repos/github/allanitsme/lambda-csv-importer/badge.svg?branch=develop)](https://coveralls.io/github/allanitsme/lambda-csv-importer?branch=develop)
 
 This is a NodeJS application that loads CSVs files from S3 Bucket and import to MySQL.
 
