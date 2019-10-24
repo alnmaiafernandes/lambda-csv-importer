@@ -23,8 +23,7 @@ exports.importRecord = async (record) => {
   }
 
   await processCsv(result.data);
-
-  // await s3Service.deleteFile(bucket.name, object.key);
+  await s3Service.deleteFile(bucket.name, object.key);
 
   return { success: true };
 };
