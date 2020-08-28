@@ -12,6 +12,7 @@ const databaseService = require('./services/database');
  * @return {Boolean}
  */
 exports.import = async (event) => {
+  var abc = 1;
   log.options.meta.event = event;
 
   if (event.Records === undefined) {
